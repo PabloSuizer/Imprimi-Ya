@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "category": "Fotocopiadora comercial",
+        "nombreImprenta": "Imprenta Daniel Fernandez",
+        "location": "Patricias Sanjuaninas 1238 sur-Capital-San Juan",
+        "hour": "8:00 a 13 y 16:00 a 21:00",
+        "phone":"2644985854",
+        "images": "../assets/images/Imprenta1.jpeg"
+    },
+
+    {
+        "id": 2,
+        "category": "Fotocopiadora comercial",
+        "nombreImprenta": "Imprenta Creativa",
+        "location": "Ig. de la rosa y las heras Capital",
+        "hour": "8:00 a 13 y 16:00 a 21:00",
+        "phone":"2645905851",
+        "images": "Imprenta1.jpej"
+    },
+
+    {
+        "id": 3,
+        "category": "Impresora multifuncion",
+        "nombreImprenta": "Imprenta MyP",
+        "location": "Fray Luis Beltran 1610 Santa Lucia",
+        "hour": "8:00 a 13 y 16:00 a 21:00",
+        "phone":"2645843785",
+        "images": "Imprenta1.jpeg"
+    },
+
+    {
+        "id": 4,
+        "category": "Impresora multifuncion",
+        "nombreImprenta": "Imprenta Speed Graph",
+        "location": "Av. Libertador y Urquiza Capital",
+        "hour": "8:00 a 13 y 16:00 a 21:00",
+        "phone":"2645667754",
+        "images": "Imprenta1.jpej"
+    }
+]
