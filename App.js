@@ -1,26 +1,16 @@
 import { StyleSheet, View, SafeAreaView, StatusBar, Platform, Text } from "react-native";
-
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { NavigationContainer } from '@react-navigation/native';
-
-import Home from "./src/screens/Home"
-import Detail from "./src/screens/Detail";
+import Navigator from "./src/navigation/Navigator";
 
 
 
-const Stack = createNativeStackNavigator()
+
 export default function App() {
 
 
   return (
     <>
       <SafeAreaView style={styles.container}>
-        <NavigationContainer>
-          <Stack.Navigator>
-            <Stack.Screen name="Home" component={Home}  />
-            <Stack.Screen name="Detail" component={Detail}/>
-          </Stack.Navigator>
-        </NavigationContainer>
+          <Navigator/>
       </SafeAreaView>
     </>
   );

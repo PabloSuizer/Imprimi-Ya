@@ -16,7 +16,7 @@ const Home = ({navigation}) => {
 
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
+      <Text>Bienvenido a Imprimi Ya</Text>
       <FlatList
         data={imprentas}
         renderItem={renderItem}
